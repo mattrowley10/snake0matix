@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  background-color: black;
+}
+.app{
+  text-align: center;
+}
+
+.gameboard{
+ position: relative;
+ top: 1rem;
+ text-align: center;
+}
+.snakeheader{
+  /* margin-bottom: 1rem; */
+}
+.level-board{
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  position: relative;
+  font-size: 20px;
+  margin-left: 4rem;
+  text-decoration: underline;
+}
